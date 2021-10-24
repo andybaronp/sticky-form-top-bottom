@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+div {
+  border: 1px dashed black;
+  padding: 5px;
+  margin: 100px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.sticky {
+  position: fixed;
+  z-index: 9999;
+  background-color: rgb(112, 112, 112);
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  bottom: 0;
+  right: 30%;
+  transition: bottom 0.7s ease-out;
+  animation: fadeIn 0.4s alternate;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  border: 1px solid tomato;
+  padding: 1rem;
+  background-color: darkgrey;
+}
